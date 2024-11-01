@@ -1,21 +1,11 @@
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
+import React from 'react'
 
-const Homepage = () => {
+const page = () => {
   return (
     <div>
-      
-      <Footer/>
-      <Header/>
-      <Hero/>
-      <Navbar/>
-
-    <h1> This is Homepage. </h1>
-
+      <h1> This is my About page. </h1>
     </div>
   )
 }
 
-export default Homepage
+export default page
